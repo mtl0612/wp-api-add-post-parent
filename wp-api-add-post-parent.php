@@ -25,6 +25,7 @@ class WP_API_Add_Post_Parent{
 			'schema'          => null,
 		);
 		register_rest_field( 'post', 'parent', $args );
+                register_rest_field( 'chap', 'parent', $args );
 		register_rest_field( 'attachment', 'parent', $args );
 	}
 
